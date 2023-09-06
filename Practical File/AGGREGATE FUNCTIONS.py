@@ -1,0 +1,16 @@
+import pandas as pd
+df = pd.DataFrame({'X':[1,2,3],'Y':[100,200,300],'C':[1000,2000,3000]})
+print(df)
+print(df.sum())
+print(df.max())
+print(df.min())
+print(df.mean())
+print(df.median)
+print(df.count())
+
+print(df.sum(axis=1))
+print(df.max(axis=1))
+print(df.min(axis=1))
+print(df.mean(axis=1))
+print(df.median)
+print(df.count(axis=1))
