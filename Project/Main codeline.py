@@ -12,7 +12,6 @@ layout = [[pg.Text("CIA")]
 #creating window 
 window = pg.Window("CIA",layout)  
 
-
 def options():
     print()
     print("Press 1 to Search for Criminal Records ")
